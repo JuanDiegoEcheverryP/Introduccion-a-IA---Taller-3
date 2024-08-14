@@ -2,6 +2,29 @@
 
 El objetivo del taller consiste en jugar triqui contra la máquina, la cual toma sus desiciones de acuerdo a un algoritmo MIN-MAX.
 
+## Definición de Estados:
+El estado es la configuración actual del tablero, representada como una matriz de 3x3 con casillas vacías, 'X' o 'O'. 
+
+Ejemplos de posibles estados:
+Estado inicial (tablero vacío):
+
+[['', '', ''], ['', '', ''], ['', '', '']]
+
+Estado después de algunos movimientos:
+
+[['X', '', 'O'], ['O', 'X', ''], ['', '', '']]
+
+Estado terminal (jugador X gana):
+
+[['X', 'X', 'X'], ['O', 'O', ''], ['', '', '']]
+
+## Minimax y Función Heurística
+
+Valor +1: si la IA (jugador 'O') gana.
+Valor -1: si el jugador humano (jugador 'X') gana.
+Valor 0: si hay empate.
+
+
 ## Requisitos
 
 - Python3
