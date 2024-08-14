@@ -8,15 +8,21 @@ El estado es la configuración actual del tablero, representada como una matriz 
 Ejemplos de posibles estados:
 Estado inicial (tablero vacío):
 
-[['', '', ''], ['', '', ''], ['', '', '']]
+[['', '', ''],
+['', '', ''],
+['', '', '']]
 
 Estado después de algunos movimientos:
 
-[['X', '', 'O'], ['O', 'X', ''], ['', '', '']]
+[['X', '', 'O'],
+['O', 'X', ''],
+['', '', '']]
 
 Estado terminal (jugador X gana):
 
-[['X', 'X', 'X'], ['O', 'O', ''], ['', '', '']]
+[['X', 'X', 'X'],
+['O', 'O', ''],
+['', '', '']]
 
 ## Minimax y Función Heurística
 
