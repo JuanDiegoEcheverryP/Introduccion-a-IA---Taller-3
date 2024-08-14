@@ -20,9 +20,9 @@ Estado terminal (jugador X gana):
 
 ## Minimax y Función Heurística
 
-Valor +1: si la IA (jugador 'O') gana.
-Valor -1: si el jugador humano (jugador 'X') gana.
-Valor 0: si hay empate.
+- Valor +1: si la IA (jugador 'O') gana.
+- Valor -1: si el jugador humano (jugador 'X') gana.
+- Valor 0: si hay empate.
 
 
 ## Requisitos
